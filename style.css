@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#secondary-nav {
+    display: flex;
+    padding: 10px 0;
+    box-shadow: 10 10px 4px #ccc;
+    /* background-color: black; */
+    background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+    background-position: center;
+}
+
+.f-icon {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.left-items {
+    width: 50%;
+    text-align: left;
+    color: white;
+    /* background-color: #ccc; */
+    padding-left: 100px;
+    font-size: 12px;
+}
+
+.right-items {
+    width: 50%;
+    text-align: right;
+    padding-right: 100px;
+    color: #fff;
+    font-size: 12px;
+    /* background-color: blueviolet; */
+    color: white;
+}
+
+
+/* primary header style */
+
+#primary-nav {
+    display: flex;
+    padding: 10px 0;
+    box-shadow: 0 0 8px #ccc;
+    /* background-color: black; */
+    background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+    background-position: bottom;
+}
+
+#logo {
+    width: 50%;
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+#logo-img {
+    font-size: 36px;
+    width: 230px;
+    /* height: 67px; */
+}
+
+#menu {
+    width: 50%;
+    margin-right: 100px;
+    text-align: right;
+    /* color: white; */
+    /* background-color: cornflowerblue; */
+    text-decoration: none;
+}
+
+.menu-list {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu-list:hover {
+    color: #FF9800;
+}
+
+
+/* slider */
+
+#slider {
+    height: 100vh;
+    background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+}
+
+.slider1 {
+    display: flex;
+    margin-left: 70px;
+}
+
+#heading-wrapper {
+    border-left: 3px;
+    color: white;
+    margin: 200px 30px 20px 30px;
+    padding-left: 20px;
+    border-left: 10px solid #FF9800;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 800;
+    /* padding: 100px 30px; */
+    line-height: 60px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 30px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 30px;
+}
+
+.login-btn {
+    color: white;
+    background-color: #FF9800;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.join-btn {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.heading-span-color {
+    color: #FF9800;
+}
+
+.left-content {
+    width: 50%;
+    height: 500px;
+    /* background-color: cadetblue; */
+}
+
+.right-image {
+    width: 50%;
+    height: 500px;
+    /* background-color: chocolate; */
+}
+
+#bitcoin {
+    width: 300px;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+
+/* section second */
+
+.sec-2-wraper {
+    display: flex;
+    background-color: #FF9800;
+    /* padding: 20px 40px; */
+}
+
+.left-sec2 {
+    /* font-size: 14px; */
+    width: 75%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-color: aquamarine; */
+}
+
+.heading2 {
+    /* display: block; */
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* background-color: red; */
+}
+
+.para2 {
+    font-size: 14px;
+    /* background-color: green; */
+    margin-left: 0px;
+    line-height: 25px;
+    word-spacing: 4px;
+    font-weight: 200;
+}
+
+.right-login-btn {
+    width: 25%;
+    /* position: relative; */
+}
+
+.free-register {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+
+
+/* section3 */
+
+#section3-wrapper {
+    display: flex;
+    /* padding-bottom: 1px; */
+}
+
+#left-sec3 {
+    width: 50%;
+    padding: 100px 30px;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+#computer-img {
+    width: 100%;
+}
+
+#right-sec3 {
+    width: 50%;
+    padding: 100px 30px;
+    /* background-color: aquamarine; */
+}
+
+.sec3-subhead {
+    display: block;
+    letter-spacing: 6px;
+    color: #b1b1b1;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+#sec3-head {
+    font-size: 32px;
+    line-height: 32px;
+    color: #171f2c;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.line {
+    background-color: #FF9800;
+    height: 3px;
+    width: 55px;
+    margin-bottom: 50px;
+}
+
+.sec3-para1 {
+    display: block;
+    color: black;
+    margin-left: 0px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sec3-para2 {
+    display: block;
+    color: #ccc;
+    margin-left: 0px;
+    line-height: 24px;
+    padding-top: 24px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+
+.login-btn2 {
+    color: white;
+    background-color: #FF9800;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.join-btn2 {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+/* section 4 */
+
+#sec4 {
+    padding: 60px 30px;
+    background-color: #F5F6F6;
+    /* position: relative; */
+    /* opacity: 0.1; */
+}
+
+.sec4-title {
+    padding-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    color: #171f2c;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+.line2 {
+    /* position: absolute; */
+    background-color: #FF9800;
+    height: 3px;
+    width: 55px;
+    margin-bottom: 50px;
+    top: 150px;
+    margin-left: 600px;
+}
+
+#card-wraper {
+    width: 100%;
+    display: flex;
+}
+
+.sec4-img {
+    width: 100px;
+}
+
+.card {
+    width: 33%;
+    margin: 5px;
+    text-align: center;
+    padding: 40px 20px;
+    text-transform: uppercase;
+    /* border: 1px solid #FF9800; */
+}
+
+.card:hover {
+    border: 3px solid #FF9800;
+}
+
+.sec4-img {
+    width: auto;
+    height: 70px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+
+/* section 5 */
+
+#sec5 {
+    display: flex;
+    background-image: url("https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg");
+    padding: 40px 20px;
+}
+
+.sec4-left {
+    width: 30%;
+}
+
+#sec4-img {
+    transform: rotateX("45deg");
+}
+
+.sec4-right {
+    width: 70%;
+    /* text-align: right; */
+    padding: 20px 100px 20px 30px;
+}
+
+.download-plan {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #D25904;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+
+/* .download-plan */
+
+.download-plan:hover {
+    color: #D25904;
+    /* text-decoration: none; */
+}
+
+.sec4-heading {
+    color: #FF9800;
+    text-align: right;
+}
+
+.sec4-para {
+    font-size: 14px;
+    text-align: right;
+    font-weight: normal;
+    padding-right: 0;
+    margin-top: 30px;
+    margin-right: 0;
+    line-height: 30px;
+}
+
+.num {
+    display: block;
+    color: #FF9800;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.text {
+    display: block;
+    color: white;
+    font-size: 12px;
+    /* font-weight: 600; */
+    text-align: left;
+    margin-left: 150px;
+}
+
+.sec6-para {
+    color: grey;
+    text-align: center;
+    margin: 0px 150px 50px 150px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/* section 7  */
+
+#sec7-wraper {
+    display: flex;
+    /* padding: 10px 30px 10px 0; */
+    /* padding-bottom: 30px; */
+}
+
+.sec7-left {
+    width: 50%;
+    background-image: url("http://www.smartworldtrade.in/images/any-query.png");
+    background-repeat: no-repeat;
+    background-color: #171F2C;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-bottom: 30px;
+    /* padding-top: -20px; */
+}
+
+.sec7-heading {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+.sec7-para {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    /* margin-bottom: 20px; */
+    /* margin-top: 80px; */
+    text-transform: capitalize;
+    font-family: inherit;
+}
+
+.num1 {
+    display: block;
+    color: #FF9800;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    font-family: inherit;
+}
+
+.sec7-right {
+    /* margin-top: -10px; */
+    width: 50%;
+    background-image: url("http://www.smartworldtrade.in/images/any-query-contact.png");
+    background-repeat: no-repeat;
+    background-color: #FF9800;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-bottom: 30px;
+    /* top: 0; */
+}
+
+.mail {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    font-family: inherit;
+}
+
+footer {
+    display: flex;
+    padding: 0 30px;
+    background-color: black;
+    /* font-size: 14px; */
+}
+
+.left-footer {
+    width: 50%;
+}
+
+.fleft {
+    color: #ccc;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 30px;
+    opacity: 0.5;
+}
+
+.right-footer {
+    width: 50%;
+    margin-right: 30px;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.link-list {
+    color: #ccc;
+    font-size: 12px;
+    text-align: right;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.link-list:hover {
+    color: #ccc;
+}
+
+.slash {
+    margin: 0 5px;
+}
